@@ -1,0 +1,107 @@
+body {
+	margin-bottom: 60px; /* Margin bottom by footer height */
+  padding-top: 38px;
+}
+
+body.login {
+    background-color: #e6f2ff;
+} 
+
+.container.login-container {
+    margin-top: 10%;
+    padding: 20px 20px;
+}
+
+.card.login-card {
+    padding: 10px 10px 10px;
+    background-color #f4f4f4;
+    box-shadow: 2px 2px 5px rgba (0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+img.login-img {
+    padding: 0 1rem 1rem;
+    margin: auto;
+    display: block;
+
+}
+
+#wrapper {
+    /* display:flex; */
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 38px;
+  }
+}
+
+a:focus,a:hover,a{
+    outline:none;
+    text-decoration: none;
+}
+li,ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navi {
+    background: #0e1a35;
+    min-height: 100vh;
+    text-decoration: none;
+    
+
+}
+
+.navi a {
+    border-bottom: 1px solid #0d172e;
+    border-top: 1px solid #0d172e;
+    color: whitesmoke;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 22px 20px;
+    padding-left: 32px;
+    text-decoration: none;
+}
+
+
+.navi a:hover {
+    background: #122143 none repeat scroll 0 0;
+    border-left: 5px solid #5584ff;
+    display: block;
+    padding-left: 15px;
+}
+
+
+.card-body {
+    height: 30px;
+    
+}
+
+#card1, #card2, #card3 {
+    height: 450px;
+    padding-top: 50px;
+
+}
+
+.customListDivWidth{
+	position: absolute;
+	z-index:500;
+	width: 100%;
+}
+
+.footer {
+    height: 45px;
+    background-color: #0d172e;
+}
+
+.footer .container {
+    align-items: center;
+    padding-top: 7px;
+}
