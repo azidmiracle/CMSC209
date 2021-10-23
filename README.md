@@ -92,6 +92,8 @@ The proposed project is an online website and will be hosted in a web hosting pr
  
 The system is primarily designed for use on a computer. A demo system can be accessed through the link below.
 
+Update: DNS has already expired.
+
 http://diazloria.com/kayamanan-inventory/
 
 For testing purposes, please use the access information below:
